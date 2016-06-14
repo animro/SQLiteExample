@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_color">#4682B4</color>
+    <color name="num_back">#333333</color>
+    <color name="white_shade">#95ffffff</color>
+    <color name="icon_color">#708090</color>
+    <color name="bg">#E2E2E2</color>
+
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="black_50">#50000000</color>
+</resources>

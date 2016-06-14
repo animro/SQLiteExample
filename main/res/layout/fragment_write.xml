@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.tcs.exam3.Fragments.WriteFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+<EditText
+    android:id="@+id/et_write_name"
+    android:hint="Name*"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+<EditText
+    android:id="@+id/et_write_extn"
+    android:hint="Extn*"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+<EditText
+    android:id="@+id/et_write_dept"
+    android:hint="Dept*"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+<EditText
+    android:id="@+id/et_write_mobile"
+    android:hint="Mobile no"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+<Button
+    android:id="@+id/btn_write_save"
+    android:text="SAVE"
+    android:layout_width="257dp"
+    android:layout_height="wrap_content" />
+    </LinearLayout>
+</FrameLayout>
